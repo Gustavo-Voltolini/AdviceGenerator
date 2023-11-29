@@ -1,0 +1,111 @@
+body {
+    background-color: hsl(218, 23%, 16%);
+    color: hsl(193, 38%, 86%);
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doc {
+    width: 40%;
+    height: 20rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(217, 19%, 24%);
+}
+
+.adviceCont {
+    margin-top: 10vh;
+}
+
+.advice {
+    color: hsl(150, 100%, 66%);
+}
+
+.fraseCont {
+    display: flex;
+    margin-top: 8vh;
+}
+.frase{
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+.linhas {
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.linha1 {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 0.3rem;
+    border-top: 1px solid hsl(193, 4%, 57%);
+    
+}
+
+.verticais {
+    height: 100%;
+    display: inline;
+}
+
+.vertical1 {
+    border-radius: 5px;
+    display: inline;
+    margin: 2%;
+    border-left: 5px solid white;
+}
+
+.vertical2 {
+    border-radius: 5px;
+    border-left: 5px solid white;
+    display: inline;
+    margin: 2%;
+}
+
+.linha2 {
+    margin-bottom: 0.3rem;
+    border-top: 1px solid hsl(193, 4%, 57%);
+    display: inline-block;
+    width: 30%;
+}
+button{
+    position: relative;
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin-top: 2rem;
+}
+img{
+    padding: 0.2rem 0 0 0;
+}
+
+@media screen and (max-width:768px){
+    .container{
+        width: 100%;
+    }
+    .doc{
+        width: 90%;
+    }
+    .fraseCont{
+        margin-top: 3rem;
+        position: relative;
+        max-width: 90%;
+    }
+    button{
+        margin-top: 3rem;
+        position: relative;
+    }
+}
